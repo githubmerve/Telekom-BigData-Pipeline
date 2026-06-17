@@ -1,4 +1,5 @@
-# Telekomünikasyon Sektöründe Dağıtık Büyük Veri Akış Hattı ve Yapay Zeka Tabanlı Churn Risk Analizi
+# TELEKOMÜNİKASYON SEKTÖRÜNDEKİ MÜŞTERİ ŞİKAYETLERİNİN BÜYÜK VERİ VE WEB MADENCİLİĞİ YÖNTEMLERİYLE ANALİZİ
+
 
 Bu proje, telekomünikasyon sektöründeki (Turkcell, Vodafone, Türk Telekom) müşteri krizlerini ve memnuniyetsizliklerini uçtan uca analiz etmek amacıyla geliştirilmiş, 3 düğümlü (multi-node) dağıtık bir büyük veri mimarisidir.
 
