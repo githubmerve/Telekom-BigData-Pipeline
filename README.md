@@ -14,8 +14,7 @@ Sistem; web kazıma (Web Scraping), mesaj kuyruklama (Apache Kafka), gerçek zam
 
 * **Yazar:** Merve Subaşı
 * **Danışman:** Prof. Dr. Melih Engin
-* **Teknik Destek:** Arş. Gör. Yasin Erduran
-* **Tam Tez Metni (DOCX):** [`Merve Subaşı-Lisans Tezi.docx`](Merve%20Suba%C5%9F%C4%B1-Lisans%20Tezi.docx) *(Tezin tamamını okumak için depodaki Word dosyasını inceleyebilirsiniz.)*
+* **Tez Dosyası:** [`Merve Subaşı-Lisans Tezi.docx`](Merve%20Suba%C5%9F%C4%B1-Lisans%20Tezi.docx) *(Tezin tamamını okumak için repodaki Word dosyasını inceleyebilirsiniz.)*
 
 ---
 
