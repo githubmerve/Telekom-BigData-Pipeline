@@ -1,9 +1,21 @@
-# TELEKOMÜNİKASYON SEKTÖRÜNDEKİ MÜŞTERİ ŞİKAYETLERİNİN BÜYÜK VERİ VE WEB MADENCİLİĞİ YÖNTEMLERİYLE ANALİZİ
+# Telekomünikasyon Sektöründeki Müşteri Şikayetlerinin Büyük Veri ve Web Madenciliği Yöntemleriyle Analizi
 
+> **Bursa Uludağ Üniversitesi Yönetim Bilişim Sistemleri Bölümü**  
+> **Lisans Bitirme Tezi Akademik Proje Reposu**
 
-Bu proje, telekomünikasyon sektöründeki (Turkcell, Vodafone, Türk Telekom) müşteri krizlerini ve memnuniyetsizliklerini uçtan uca analiz etmek amacıyla geliştirilmiş, 3 düğümlü (multi-node) dağıtık bir büyük veri mimarisidir.
+---
 
-Sistem; web kazıma (Web Scraping), mesaj kuyruklama (Message Queuing), gerçek zamanlı akış işleme (Stream Processing), NoSQL veri depolama ve ileri analitik/makine öğrenmesi katmanlarını tek bir mimaride birleştirmektedir.
+## Akademik Özet & Tez Hakkında
+Bu depo, Turkcell, Vodafone ve Türk Telekom müşterilerine ait şikayet verilerinin büyük veri teknolojileri, web madenciliği, doğal dil işleme (NLP) ve makine öğrenmesi yöntemleriyle analiz edildiği lisans bitirme tezinin uygulama kodlarını içermektedir.
+
+Çalışma kapsamında, geleneksel statik veri analizlerinden farklı olarak 3 düğümlü (multi-node) dağıtık bir büyük veri mimarisi üzerinde gerçek zamanlı veri akış hattı (Data Pipeline) tasarlanmış ve müşteri şikayetleri uçtan uca işlenmiştir.
+
+Sistem; web kazıma (Web Scraping), mesaj kuyruklama (Apache Kafka), gerçek zamanlı akış işleme (Apache Spark Streaming), NoSQL veri depolama (MongoDB) ve makine öğrenmesi tabanlı analitik süreçlerini tek bir mimari altında bütünleştirmektedir.
+
+* **Yazar:** Merve Subaşı
+* **Danışman:** Prof. Dr. Melih Engin
+* **Teknik Destek:** Arş. Gör. Yasin Erduran
+* **Tam Tez Metni (DOCX):** [`Merve Subaşı-Lisans Tezi.docx`](Merve%20Suba%C5%9F%C4%B1-Lisans%20Tezi.docx) *(Tezin tamamını okumak için depodaki Word dosyasını inceleyebilirsiniz.)*
 
 ---
 
@@ -176,4 +188,4 @@ Bu proje aşağıdaki alanları tek bir sistemde birleştirmektedir:
 * Linux Otomasyonu
 * Veri Görselleştirme
 
-Bu yönüyle proje, gerçek zamanlı müşteri geri bildirimlerinin analiz edilmesi ve müşteri kaybı risklerinin belirlenmesi amacıyla geliştirilmiş uçtan uca bir büyük veri analitik platformudur.
+Bu çalışma; büyük veri teknolojileri, web madenciliği, doğal dil işleme ve makine öğrenmesini tek bir dağıtık mimaride birleştirerek telekomünikasyon sektöründeki müşteri şikayetlerinin gerçek zamanlı analizine yönelik uçtan uca çalışan bir karar destek sistemi sunmaktadır. Geliştirilen mimari, akademik araştırmaların yanı sıra benzer kurumsal uygulamalar için de ölçeklenebilir bir referans niteliğindedir.
